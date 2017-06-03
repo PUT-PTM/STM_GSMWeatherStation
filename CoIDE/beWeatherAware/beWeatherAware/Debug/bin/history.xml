@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=beWeatherAware.map -O0 --gc-sections -lm -lgcc -lc -LD:\programming\CoIDE\configuration\ProgramData\beWeatherAware -TD:\programming\CoIDE\configuration\ProgramData\beWeatherAware/arm-gcc-link.ld -g">
+      <target file="beWeatherAware.elf" lastModified="15c5d4a0937">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="15c5d48431d"/>
+         <source file="..\obj\gsm.o" lastModified="15c5d4844a2"/>
+         <source file="..\obj\tm_stm32f4_hd44780.o" lastModified="15c5d4845ae"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="15c5d4846b9"/>
+         <source file="..\obj\bmp180.o" lastModified="15c5d4847bd"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15c5d48489e"/>
+         <source file="..\obj\main.o" lastModified="15c5d4a0615"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15c5d484ab5"/>
+         <source file="..\obj\printf.o" lastModified="15c5d484bba"/>
+         <source file="..\obj\tm_stm32f4_bmp180.o" lastModified="15c5d484cd5"/>
+         <source file="..\obj\usart_functions.o" lastModified="15c5d484de1"/>
+         <source file="..\obj\tm_stm32f4_delay.o" lastModified="15c5d484f10"/>
+         <source file="..\obj\tm_stm32f4_i2c.o" lastModified="15c5d485015"/>
+         <source file="..\obj\dht11.o" lastModified="15c5d485102"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15c5d4851f1"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15c5d4852de"/>
+         <source file="..\obj\tim4.o" lastModified="15c5d48c6f3"/>
+         <source file="..\obj\gsm_usart.o" lastModified="15c5d4854df"/>
+         <source file="..\obj\lcd.o" lastModified="15c5d485625"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="15c5d485737"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="15c5d485828"/>
+         <source file="..\obj\misc.o" lastModified="15c5d48590e"/>
+         <source file="..\obj\tm_stm32f4_gpio.o" lastModified="15c5d485a12"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="15c5d485b6b"/>
+         <source file="..\obj\usart.o" lastModified="15c5d485c59"/>
+      </target>
+   </processor>
+</history>

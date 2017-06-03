@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Kornel\school\picus-glancus-pizdeczka\sda\beWeatherAware\cmsis_lib\include -I..\..\..\..\..\Kornel\school\picus-glancus-pizdeczka\sda\beWeatherAware\cmsis -I..\..\..\..\..\Kornel\school\picus-glancus-pizdeczka -I..\..\..\..\..\Kornel\school\picus-glancus-pizdeczka\sda\beWeatherAware -I..\..\..\..\..\Kornel\school\picus-glancus-pizdeczka\sda\beWeatherAware\cmsis_lib -I..\..\..\..\..\Kornel\school\picus-glancus-pizdeczka\sda -I..\..\..\..\..\Kornel\school\picus-glancus-pizdeczka\sda\beWeatherAware\tm_libs -I..\..\..\..\..\Kornel\school\picus-glancus-pizdeczka\sda\beWeatherAware\cmsis_boot">
+      <target file="stm32f4xx_exti.o" lastModified="15c5d485828">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="15bfb3f22ec"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="15c5d4851f1">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15bfb25a5d0"/>
+      </target>
+      <target file="dht11.o" lastModified="15c5d485102">
+         <source file="..\..\..\dht11.c" lastModified="15c3b832314"/>
+      </target>
+      <target file="tm_stm32f4_i2c.o" lastModified="15c5d485015">
+         <source file="..\..\..\tm_libs\tm_stm32f4_i2c.c" lastModified="156e9500bee"/>
+      </target>
+      <target file="tm_stm32f4_bmp180.o" lastModified="15c5d484cd5">
+         <source file="..\..\..\tm_libs\tm_stm32f4_bmp180.c" lastModified="14cad67eaf8"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="15c5d48431d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="15bfb447b96"/>
+      </target>
+      <target file="tm_stm32f4_gpio.o" lastModified="15c5d485a12">
+         <source file="..\..\..\tm_libs\tm_stm32f4_gpio.c" lastModified="1591495d990"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15c5d48489e">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15bfb257a39"/>
+      </target>
+      <target file="gsm.o" lastModified="15c5d4844a2">
+         <source file="..\..\..\gsm.c" lastModified="15c5d42f63f"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="15c5d485b6b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="15bfb2cd40b"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15c5d4852de">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="158b4a8dfa0"/>
+      </target>
+      <target file="printf.o" lastModified="15c5d484bba">
+         <source file="..\..\..\stdio\printf.c" lastModified="15c3eb680f3"/>
+      </target>
+      <target file="misc.o" lastModified="15c5d48590e">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="15bfb3ee3bb"/>
+      </target>
+      <target file="tim4.o" lastModified="15c5d48c6f3">
+         <source file="..\..\..\tim4.c" lastModified="15c5d48b1fc"/>
+      </target>
+      <target file="bmp180.o" lastModified="15c5d4847bd">
+         <source file="..\..\..\bmp180.c" lastModified="15c3b839124"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="15c5d484ab5">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15bfb25938c"/>
+      </target>
+      <target file="gsm_usart.o" lastModified="15c5d4854df">
+         <source file="..\..\..\gsm_usart.c" lastModified="15c3b8ba044"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="15c5d485737">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="15bfd8def81"/>
+      </target>
+      <target file="usart_functions.o" lastModified="15c5d484de1">
+         <source file="..\..\..\usart_functions.c" lastModified="15c3b881674"/>
+      </target>
+      <target file="tm_stm32f4_delay.o" lastModified="15c5d484f10">
+         <source file="..\..\..\tm_libs\tm_stm32f4_delay.c" lastModified="1591495d990"/>
+      </target>
+      <target file="tm_stm32f4_hd44780.o" lastModified="15c5d4845ae">
+         <source file="..\..\..\tm_libs\tm_stm32f4_hd44780.c" lastModified="14e8ce4e540"/>
+      </target>
+      <target file="usart.o" lastModified="15c5d485c59">
+         <source file="..\..\..\usart.c" lastModified="15c3b81dd6d"/>
+      </target>
+      <target file="main.o" lastModified="15c5d4a0615">
+         <source file="..\..\..\main.c" lastModified="15c5d49bb3e"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="15c5d4846b9">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15bfb3efa34"/>
+      </target>
+      <target file="lcd.o" lastModified="15c5d485625">
+         <source file="..\..\..\lcd.c" lastModified="15c5d3d353e"/>
+      </target>
+   </processor>
+</history>
