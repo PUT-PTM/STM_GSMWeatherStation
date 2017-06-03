@@ -31,15 +31,6 @@ int main(void)
 	LCD_run_config();
 	GSM_run_config();
 	
-
-	// 1. ogolnie w mainie sie nic nie dzieje
-	// 2. podlaczamy wszystko i czekamy na sygnal z kompa zeby po prostu dostac OUTSIDE warunki
-	// 3. co 5s zmienia sie wyswietlacz, raz INSIDE raz OUTSIDE
-	// 4. w TIM4Handler jest zmienna counter i zrobilem ze raz na 30s wysyla sms, jak zmienimy if'a na inna wartosc niz 6, no to bedzie odpowiednio innaczej wysylal
-	// 5. raz na 10s pobieram wyniki z naszych czunikow - oczywiscie ten czas tez mozna zmienic jak wyzej, jak bedziemy chcieli pokazac runtime wyniki, no to sie odkomentuje while(1) w mainie
-	// 6. jak otrzymamy znak 's' to my wysylamy do kompa nasze warunki
-	// 7. jak cokolwiek innego to my cos otrzymujemy
-	
 	while (1) 
 	{		
 		// DHT11_read_data();
