@@ -34,7 +34,8 @@ Use CoIDE to compile C code and to flash program onto the borad. Use IntelliJ to
 
 ## Future improvements
 
-We could add some command-line interface to control whole project.
+* We could add some command-line interface to control whole project.
+* Replace FT232R USB module with HC-06 Bluetooth module.
 
 ## Attributions
 
