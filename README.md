@@ -1,7 +1,7 @@
 # STM_GSMWeatherStation - beWeatherAware
 
 ## Overview
-STM_GSMWeatherStation is a project of stacionary weather station that measures weather conditions in local area and gets condtions in Poznan from the WeatherUnderground web service. 
+STM_GSMWeatherStation is a project of stacionary weather station that measures weather conditions in local area and gets condtions in Poznań from the WeatherUnderground web service. 
 
 ## Description
 
@@ -49,4 +49,4 @@ Distributed under MIT license.
 ## Credits
 
 The project was conducted during the Microprocessor Lab course held by the Institute of Control and Information Engineering, Poznan University of Technology.
-Supervisor: Adam Bondyra
+Supervisor: Adam Bondyra.
