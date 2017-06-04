@@ -39,12 +39,12 @@ We could add some command-line interface to control whole project.
 ## Attributions
 
 We used:
-* STM32 libriaries by Tilen Majerle provided on: [stm32f4-discovery](https://stm32f4-discovery.net)
-* RXTX library in Java for UART comunication: [RXTX](http://users.frii.com/jarvi/rxtx/download.html)
+* STM32 libriaries by Tilen Majerle provided on: [stm32f4-discovery](https://stm32f4-discovery.net).
+* RXTX library in Java for UART comunication: [RXTX](http://users.frii.com/jarvi/rxtx/download.html).
 
 ## License
 
-Distributed under MIT license
+Distributed under MIT license.
 
 ## Credits
 
